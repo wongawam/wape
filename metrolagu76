@@ -1,0 +1,7 @@
+<?php $id = $_GET['link'];?>
+        <html>
+        <head>
+        <meta name="robots" content="noindex"></head>
+        <body>
+       <iframe sandbox="allow-scripts allow-same-origin allow-downloads" src="https://www.yt2mp3s.me/api/button/mp3/<?php echo $id; ?>" allowfullscreen="true" allowtransparency="true" frameborder="0" height="100%" scrolling="yes" width="100%"></iframe>
+    </body>    </html>
